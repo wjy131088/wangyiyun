@@ -1,7 +1,7 @@
 // 自动注册vant组件
-import { Button, Cell, Image as VanImage } from 'vant'
+import { NavBar, Tabbar, TabbarItem } from 'vant'
 
-const components = [Button, Cell, VanImage]
+const components = [NavBar, Tabbar, TabbarItem]
 
 const registerVant = (Vue) => {
   components.forEach((component) => Vue.use(component))
